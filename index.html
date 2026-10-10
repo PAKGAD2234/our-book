@@ -9,29 +9,28 @@
 </head>
 
 <body>
-  <!-- หน้าล็อก -->
-  <section id="lock">
-    <h1>ครบรอบ 4 ปี</h1>
-    <p>ใส่วันครบรอบให้ถูกนะ ไอ่แก่!!!</p>
-
-    <form id="lockForm">
-      <input id="dateInput" type="text" placeholder="วัน/เดือน/ปี ค.ศ."
-             inputmode="numeric" autocomplete="off">
-      <button type="submit">เปิดหนังสือ</button>
-    </form>
-
-    <p id="error" hidden>นี่จำวันครบรอบเราไม่ได้หรอ!!! แก่!!😒</p>
-  </section>
-
-  <!-- ตัวหนังสือ -->
-  <section id="bookWrap" hidden>
+\
+  <section id="bookWrap" class="locked">
     <div class="book" id="book">
 
-      <!-- ปก -->
+  
       <div class="page cover">
-        <h1>ถึงเตงงงงงงงงงงงงง🩷✨</h1>
-        <p>เค้ายักเตงงน้าาาา</p>
-        <p>💌กดอ่านเยยยยย💌</p>
+        <h1>🎊ครบรอบ 4 ปี🎊</h1>
+        <p>💗ขอบคุณที่อยู่ด้วยกันมาจนถึงขนาดนี้ รักนะคะ💗</p>
+
+        <!-- รูปโปรไฟล์กึ่งกลางปก -->
+        <img class="cover-profile" src="photos/profile.jpg" alt="">
+
+  
+        <form id="lockForm">
+          <p class="lock-hint">ใส่วันครบรอบให้ถูกนะ ไอ่แก่!!!</p>
+          <div class="lock-row">
+            <input id="dateInput" type="text" placeholder="วัน/เดือน/ปี ค.ศ."
+                   inputmode="numeric" autocomplete="off">
+            <button type="submit">เปิดหนังสือ</button>
+          </div>
+          <p id="error" hidden>นี่จำวันครบรอบเราไม่ได้หรอ!!! แก่!!😒</p>
+        </form>
       </div>
 
       <!-- หน้า 1 -->
@@ -90,9 +89,39 @@
            แต่พอตัวเองโดนเค้าตก โดนหยอด <br> จนเตงพยายามหาเวลาพาเค้าไปให้ได้ 
            <br> งื้ออออ ไงละโดน 1 ดอก😋
         </p>
+        <!-- หน้า 3 -->
+      </div>
+         <div class="page">
+        <div class="polaroids">
+          <figure class="polaroid">
+            <img class="photo" src="photos/S__1892379_0.jpg" alt="">
+            <figcaption>😂คิดหนักเรื่องสูตร😂</figcaption>
+          </figure>
+          <figure class="polaroid">
+            <img class="photo" src="photos/p5-2.jpg" alt="">
+            <figcaption>🤔เลือกแล้วเลือกอีก🤔</figcaption>
+          </figure>
+          <figure class="polaroid">
+            <img class="photo" src="photos/p5-3.jpg" alt="">
+            <figcaption>🤨ขายอะไรดีน้าาา🤨</figcaption>
+          </figure>
+          <figure class="polaroid">
+            <img class="photo" src="photos/p5-4.jpg" alt="">
+            <figcaption>🥺จะทำกันได้หรือเป่าเนี้ยย🥺</figcaption>
+          </figure>
+          
+        </div>
+        <h2>💸เราเริ่มทำธุรกิจด้วยกัน💸</h2>
+        <p> ตอนนั้นหนูเห็นโอกาศที่เราจะเริ่มขายของในหอกัน <br>
+            เลยคิดว่าเราทำกันได้แน่ๆๆๆ ฟันธงด้วย Target เราได้เปรียบมาก<br>
+            พอเราเริ่มขายวันแรกเราก็ได้ลูกค้าเลย เราขายกันดีมากขยายไวมาก <br>
+            จนเราจะขายแค่น้ำ แต่เราก็อยากขายของกินด้วย เลยเริ่มทำสูตรกัน <br>
+            ตอนนั้นหนูอีโก้เยอะๆมากเลย แต่สุดท้ายตัวเองก็ต้องยอมเตงเพราะเตงเก่งกว่าเค้าเยอะมากกกกก 🥹💖 <br>
+            เตงทำอาหารอร่อยจนลูกค้าติดเยอะเยยยย <br> เค้าขอบคุณน้าที่เตงช่วยเค้าเต็มที่เลย  ทำให้เค้ารักเตงมากเลย 💗
+        </p>
       </div>
 
-      <!-- หน้า 3 -->
+      <!-- หน้า 4 -->
       <div class="page">
         <div class="polaroids">
           <figure class="polaroid">
@@ -115,11 +144,11 @@
         <h2>🐈‍⬛เราทำแมวงอก🐈‍⬛</h2>
         <p>
             เราอยู่ด้วยกันจนมีลูกตั้ง 3 คนเลยง่าาาา 🥹💖<br>
-            ตอนนั้นช่วยชอปเปอร์ เพราะหนูเกือบจะปล่อยชอปเปอร์ตุยแล้ววว<br>
+            ตอนนั้นช่วยชอปเปอร์ และหนูก็เกือบจะปล่อยชอปเปอร์ตุยแล้ววว<br>
             ด้วยค่ารักษาที่แรงมากเยยย 🥹 เลยพยายามหาบ้านใหม่ให้ชอปเปอร์<br>
-            แต่สุดท้ายเหมือนเป็นพรมลิขิตเลย ไม่มีใครรับน้องไปเลี้ยงสักคน<br>
+            แต่สุดท้ายเหมือนเป็นพรมลิขิตเลย <br> ไม่มีใครรับย๊อบเมอร์ไปเลี้ยงสักคนเยย<br>
             จนเราต้องเลี้ยงชอปเปอร์ต่อไปเองงงงง 🥹💖<br>
-            ส่วนลูน่ากับริชชิ เราได้มาเพราะตอนนั้นเราอยากมีลูกเพิ่ม<br>
+            ส่วนลูน่ากับริชชิ เราได้มาเพราะตอนนั้นเราอยากมีลูกเพิ่ม มีแค่ลูน่า<br>
             ส่วนริชชิคือเหมือนได้กำไรมาเลย 5555 ดีที่พี่ฝนไม่เอา 🥹<br>
 
             หนูรักลูก ๆ ของเรามากเลยยยยย 🥰💖 <br><br>
@@ -133,31 +162,34 @@
       <div class="page">
         <div class="polaroids">
           <figure class="polaroid">
-            <img class="photo" src="img/p4-1.jpg" alt="">
-            <figcaption>ใส่คำใต้รูป</figcaption>
+            <img class="photo" src="photos/p4-1.jpg" alt="">
+            <figcaption>ไปเที่ยวพัทยาด้วยกัน <br> วันเกิดหนู💖🎂</figcaption>
           </figure>
           <figure class="polaroid">
-            <img class="photo" src="img/p4-2.jpg" alt="">
-            <figcaption>ใส่คำใต้รูป</figcaption>
+            <img class="photo" src="photos/p4-2.jpg" alt="">
+            <figcaption>เตงตามใจเค้าทุกอย่าง <br> 💝ในวันเกิดหนูเยย🌸</figcaption>
           </figure>
           <figure class="polaroid">
-            <img class="photo" src="img/p4-3.jpg" alt="">
-            <figcaption>ใส่คำใต้รูป</figcaption>
+            <img class="photo" src="photos/p4-3.jpg" alt="">
+            <figcaption>ไปกิน Swensen's <br>🤤 อาโหร่ย 🤤</figcaption>
           </figure>
           <figure class="polaroid">
-            <img class="photo" src="img/p4-4.jpg" alt="">
-            <figcaption>ใส่คำใต้รูป</figcaption>
+            <img class="photo" src="photos/p4-4.jpg" alt="">
+            <figcaption> พาทัวร์ เทอมินอล <br> 🙂‍↔️เพราะหนูคือเจ้าถิ่น💗</figcaption>
           </figure>
         </div>
-        <h2>ชื่อหน้าที่ 4</h2>
-        <p>เขียนข้อความตรงนี้</p>
+        <h2>🏖️ไปเที่ยวชิวๆ วันเกิดหนูที่พัทยา🏖️</h2>
+        <p>ช่วงนั้นหนูเหนื่อยมากเลยทำงานหนัก แต่เงินเราเยอะมาก <br>
+           หนูอยากไปพัทยา ไปดูหนังชิวๆ เตงก็ตามใจ ถึงมันไม่ได้พิเศษมาก <br>
+            แต่หนูก็มีความสุขมากเลยยยยย 🥰💖 <br>
+        </p>
       </div>
 
       <!-- หน้าสุดท้าย: วิดีโอ -->
       <div class="page">
-        <h2>ของขวัญชิ้นสุดท้าย 🎬</h2>
+        <h2> สุขสันต์วันครบรอบ 4 ปีนะคั้บ💕</h2>
         <video src="video/final.mp4" controls playsinline></video>
-        <p>ขอบคุณที่อยู่ด้วยกันนะ 💕</p>
+        <p>💖ขอบคุณที่อยู่กับหนูน้าาา💖</p>
       </div>
 
     </div> <!-- ปิด .book ตรงนี้ ต้องอยู่หลังทุกหน้า -->
