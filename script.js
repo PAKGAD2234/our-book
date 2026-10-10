@@ -68,7 +68,6 @@ next.onclick = function () { go(1); };
 
 render();
 
-// ทางลัดตอนแก้งาน: เปิดด้วย index.html#dev หรือ #dev3 เพื่อข้ามล็อกไปหน้า 3
 const dev = location.hash.match(/^#dev(\d*)$/);
 if (dev) {
   locked = false;

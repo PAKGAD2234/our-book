@@ -66,10 +66,7 @@ button {
 .page h2 {  font-size: 18px; }
 .page p { margin: 0; font-size: 0.7rem; line-height: 1.5; }
 
-/* ===== หน้าปก =====
-   รูปพื้นหลังปก: เปลี่ยนไฟล์ที่ url(...) ด้านล่าง
-   - center / cover = จัดรูปให้เต็มปกและอยู่กึ่งกลาง
-   - อยากเลื่อนตำแหน่งรูป เช่น เห็นส่วนบนของรูปมากขึ้น ให้เปลี่ยน center เป็น "center top" */
+/* ===== หน้าปก ===== */
 .cover {
   background: #ffb6c8 url("photos/cover.jpg") center / cover no-repeat;
   color: #fff;
@@ -80,10 +77,7 @@ button {
 .cover h1 { color: #ca2e2e; font-size: 1rem; text-shadow: 0 1px 4px rgba(0,0,0,.45); }
 .cover > p { color: #ef6161; text-shadow: 0 1px 4px rgba(0,0,0,.45); }
 
-/* รูปโปรไฟล์กึ่งกลางปก (photos/profile.jpg)
-   - ปรับขนาด: แก้ width (ตอนนี้ 45% ของหน้าปก)
-   - อยากได้รูปสี่เหลี่ยมมุมมน: เปลี่ยน border-radius: 50% เป็น 18px
-   - รูปหน้าไม่อยู่กลาง: ปรับ object-position เช่น center 20% */
+/* รูปโปรไฟล์: ปรับขนาดและตำแหน่ง ตรงนี้จ้าห้ามลืม */
 .cover-profile {
   display: block;
   width: 45%;
@@ -95,9 +89,7 @@ button {
   box-shadow: 0 0 0 2px #cb594a, 0 8px 20px rgba(90, 74, 92, .35);
 }
 
-/* กล่องใส่รหัสใต้รูปโปรไฟล์
-   - พื้นหลังขาวโปร่งๆ เพื่อให้อ่านง่ายบนรูปปก
-   - ปรับความโปร่ง: ค่าท้ายสุดของ rgba(255,255,255,.75) (0-1) */
+/* กล่องใส่รหัสใต้รูปโปรไฟล์ */
 #lockForm {
   width: 92%;
   display: flex;
